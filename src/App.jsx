@@ -1,11 +1,12 @@
 import './App.css'
-import Navbar from './navbar/navbar'
+import Navbar from './navbar/Navbar'
+
 function App() {
 
 
   return (
     <>
-    <Navbar></Navbar>
+<Navbar></Navbar>
     </>
   )
 }

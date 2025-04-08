@@ -5,7 +5,7 @@ const Blog = ({blog , handleBookmark , markAsRead}) => {
         <div>
             <div className="card bg-base-100 w-96 shadow-sm">
   <figure>
-    <img
+    <img className="w-auto h-50"
       src={blog.cover}
       alt="Shoes" />
   </figure>

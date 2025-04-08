@@ -1,10 +1,9 @@
 import React from 'react';
-
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100 shadow-sm">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">Book Libary List</a>
+    <a className="btn btn-ghost text-xl">BookMark Library List</a>
   </div>
   <div className="flex-none">
     <div className="dropdown dropdown-end">
@@ -31,7 +30,7 @@ const Navbar = () => {
         <div className="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+            src="https://cdn-icons-png.flaticon.com/512/3663/3663867.png" />
         </div>
       </div>
       <ul

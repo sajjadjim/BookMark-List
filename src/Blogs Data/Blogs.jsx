@@ -12,7 +12,7 @@ const Blogs = ({handleBookmark , markAsRead}) => {
 //  console.log(blogs) 
     return (
         <div>
-            <h1>Total Blogs : {blogs.length}</h1>
+            <h1 className="my-5 text-2xl font-semibold">Total Blogs : {blogs.length}</h1>
         <div className="AllBlogs grid md:grid-cols-2 grid-cols-1 gap-5">
      {
         blogs.map((blog)=><Blog 

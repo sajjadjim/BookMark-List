@@ -25,18 +25,18 @@ setBookMark(newBookMarked)
   return (
     <>
 <Navbar></Navbar>
-<div className='main-container md:flex text-center md:mx-10 mt-10'>
-<div className='right-container w-[70%]'>
+<div className='main-container md:flex justify-items-center md:mx-10 mt-10'>
+<div className='right-container md:w-[70%] w-auto'>
 <Blogs handleBookmark={handleBookmark}
 markAsRead={markAsRead}
 ></Blogs>
 
 </div>
-<div className='left-container w-[30%]'>
-  <h1>Reading Time :{readTime}</h1>
-  <h1>Total Bookmark Count :{bookMark.length}</h1>
+<div className='left-container md:w-[30%] w-auto md:mt-0 m-5'>
+  <h1 className='text-xl'>Reading Time :{readTime}</h1>
+  <h1 className='text-xl'>Total Bookmark Count :{bookMark.length}</h1>
   {
-    bookMark.map((book,index)=><div key={index} className='my-5 border-2 p-5'>
+    bookMark.map((book,index)=><div key={index} className='my-5 border-2 p-5 rounded-xl'>
       <p>{book.id}</p>
       <p>{book.author}</p>
       <p>{book.title}</p>
